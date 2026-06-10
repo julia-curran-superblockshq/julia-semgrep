@@ -36,7 +36,7 @@ function PayloadList({ onRunAll, onRunSingle, running, completedPayloads }: Payl
         <button
           onClick={onRunAll}
           disabled={running}
-          className="inline-flex items-center gap-2 px-5 py-2.5 bg-[#7C3AED] text-white text-[14px] font-semibold rounded-[8px] hover:bg-[#6D28D9] transition-colors disabled:opacity-50 disabled:cursor-not-allowed"
+          className="inline-flex items-center gap-2 px-5 py-2.5 bg-[#059669] text-white text-[14px] font-semibold rounded-[8px] hover:bg-[#047857] transition-colors disabled:opacity-50 disabled:cursor-not-allowed"
         >
           <Icon icon="play" className="w-4 h-4" />
           Run All
